@@ -12,3 +12,15 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+import math
+varA = input("we are going to solve the algebra equation: ax + b = c \nplease input a: ")
+varB = input("please input b: ")
+varC = input("please input c: ")
+
+varA = int(varA)
+varB = int(varB)
+varC = int(varC)
+
+x = (varC - varB) / varA
+
+print(f"x = {x}")
