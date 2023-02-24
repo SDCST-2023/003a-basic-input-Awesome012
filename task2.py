@@ -14,6 +14,7 @@
 import math
 radius = input("Please input the radius of your sphere ")
 
+radius = int(radius)
 volume = (4/3) * math.pi * radius
 
 print(f"the volume of your sphere is {volume}")
