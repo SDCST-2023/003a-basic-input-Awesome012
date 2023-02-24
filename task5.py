@@ -20,6 +20,6 @@ volume = input("please input the volume of your sphere: ")
 
 volume = float(volume)
 
-radius = (3 * (volume / (4 * math.pi))) ** (1/3)
+radius = (3 * (volume / (4 * math.pi))) ** (1.0/3)
 
 print(f"the radius of your sphere is {radius}")
